@@ -45,6 +45,10 @@ conts sumUpTo = n => {
 *operations taken*
 Takes 1 * N operations
 
+- Big O notation or time complexity of the above operation is :
+
+- O(n)
+
 ----------------------------------------------------
 
 *sum of all number - big o implementation*
@@ -55,6 +59,19 @@ const sumUpTo = n => {
 
 *operations taken*
 Takes 3 operations, no matter how large it is.
+
+- Big O notation or time complexity of the above operation is :
+
+- O(3)
+
+
+# Identifying run time complexity (Rule of thumb)
+
+* Iterating over a collection OR using N as a pointer with a loop : *O(n)*
+
+* Iterating over the same collection with nested loops : *O(n^2)*
+
+* Iteracting over different collection with nested loops : *O(n * m)*
 
 
 
